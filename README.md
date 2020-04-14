@@ -19,7 +19,7 @@ Settings like the WiFi you're connecting to must be set in the `sdkconfig`.  Use
 
 # Frontend
 
-The frontend was compiled locally using `npm` (`npm install` and `npm build run` in the frontend folder, as instructed in the `CMakeLists.txt`) 
+The frontend was compiled locally using `npm` (`npm install` and `npm run build` in the frontend folder, as instructed in the `main/CMakeLists.txt`) and is uploaded into the SPIFFs of the ESP32. This is then viewable via WiFi.
 
 ![Frontend](restful_web.png)
 
